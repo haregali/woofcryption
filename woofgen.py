@@ -21,4 +21,5 @@ while k < len(listChar):
     else:
         k = k-1
 reverse = dict((v,k) for k, v in dictHash.iteritems())
-print(reverse)
+print("Original: " + str(dictHash) + "\n")
+print("Reverse(for decoding): " + str(reverse))
